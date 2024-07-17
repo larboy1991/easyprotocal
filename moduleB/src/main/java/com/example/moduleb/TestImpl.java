@@ -11,8 +11,8 @@ import com.protocol.annotation.ProtocolImpl;
 @Keep
 public class TestImpl {
 
-    public String getData() {
-        return "来自模块B的数据";
+    public String getData(String string) {
+        return "来自模块B的数据"+string;
     }
 
 }
